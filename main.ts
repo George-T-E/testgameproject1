@@ -17,6 +17,7 @@ function Initialization () {
     player1X = 2
     maxLevel = 5
     player1 = game.createSprite(player1X, player1Y)
+    enemy1 = game.createSprite(enemySpawnX, enemySpawnY)
 }
 input.onButtonPressed(Button.B, function () {
     player1.change(LedSpriteProperty.X, 1)
